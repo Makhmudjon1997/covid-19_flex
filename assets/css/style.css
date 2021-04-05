@@ -119,7 +119,6 @@ img {
 main{
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .quarantine {
