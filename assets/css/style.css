@@ -75,6 +75,74 @@ img {
   color: var(--mainColor);
 }
 
+.nav-link1::after{
+  content: "";
+  position: absolute;
+  transform: translate(-320%, 200%);
+  border-radius: 50%;
+  background-color: var(--mainColor);
+  padding: 1px;
+  height: 10px;
+  width: 10px;
+  display: none;
+}
+
+
+.nav-link1:hover::after{
+  display: inline-block;
+
+}
+.nav-link2::after{
+  content: "";
+  position: absolute;
+  transform: translate(-330%, 200%);
+  border-radius: 50%;
+  background-color: var(--mainColor);
+  padding: 1px;
+  height: 10px;
+  width: 10px;
+  display: none;
+}
+
+
+.nav-link2:hover::after{
+  display: inline-block;
+
+}
+.nav-link3::after{
+  content: "";
+  position: absolute;
+  transform: translate(-620%, 400%);
+  border-radius: 50%;
+  background-color: var(--mainColor);
+  padding: 1px;
+  height: 5px;
+  width: 5px;
+  display: none;
+}
+
+
+.nav-link3:hover::after{
+  display: inline-block;
+
+}
+.nav-link4::after{
+  content: "";
+  position: absolute;
+  transform: translate(-350%, 200%);
+  border-radius: 50%;
+  background-color: var(--mainColor);
+  padding: 1px;
+  height: 10px;
+  width: 10px;
+  display: none;
+}
+
+
+.nav-link4:hover::after{
+  display: inline-block;
+}
+
 .btn {
   background-color: var(--mainColor);
   color: white;
