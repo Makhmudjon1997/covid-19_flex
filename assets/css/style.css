@@ -116,11 +116,6 @@ img {
   background-color: white;
 }
 
-main{
-  display: flex;
-  flex-direction: column;
-}
-
 .quarantine {
   padding: 150px 0;
   background-image: url('/covid-19_flex/assets/images/home-bg-image.png');
@@ -822,6 +817,7 @@ main{
   }
   .about-covid .container{
     width: 100%;
+    padding-left: 40px;
   }
 
   .contagion .container .jumbotron{
