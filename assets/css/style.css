@@ -186,7 +186,7 @@ img {
 
 .quarantine {
   padding: 150px 0;
-  background-image: url('/covid-19_flex/assets/images/home-bg-image.png');
+  background-image: url('/assets/images/home-bg-image.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
